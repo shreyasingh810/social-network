@@ -1,0 +1,50 @@
+.login
+    position: relative
+    width: 100%
+    height: 100vh
+
+.login-container
+    position: absolute
+    top: 45%
+    left: 50%
+    transform: translate(-50%, -50%)
+
+.login-area
+    width: 50vw
+    height: 70vh
+    padding: 40px 40px
+    text-align: center
+    background: #d7cfcf
+    border-radius: 20px
+
+.text h1
+    color: #444
+
+.username, .password
+    width: 80%
+    height: 30px
+    background: transparent
+    border: 0
+    border-bottom: 1px solid black
+
+.username:focus
+    border: 0
+.login-btn
+    width: 80px
+    height: 30px
+    border-radius: 20px
+    background: transparent
+    border: 2px solid white
+    transition: all 100ms ease-in
+
+.login-btn:hover
+    background: white
+.username::placeholder
+    transition: all 100ms ease-in
+.username:focus::placeholder
+    transform: translateY(-10px)
+    font-size: 10px
+    color: #444
+
+.password:focus::placeholder
+    transform: translateY(-10px)
